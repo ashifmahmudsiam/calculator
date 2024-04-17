@@ -558,6 +558,10 @@ video {
   margin-top: 10px;
 }
 
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
 .flex {
   display: flex;
 }
@@ -568,10 +572,6 @@ video {
 
 .h-\[60px\] {
   height: 60px;
-}
-
-.h-\[92px\] {
-  height: 92px;
 }
 
 .w-\[100\%\] {
@@ -602,11 +602,6 @@ video {
   border-width: 2px;
 }
 
-.border-x-2 {
-  border-left-width: 2px;
-  border-right-width: 2px;
-}
-
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -621,14 +616,14 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
 .bg-orange-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
-}
-
-.bg-orange-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(124 45 18 / var(--tw-bg-opacity));
 }
 
 .bg-orange-600 {
@@ -636,21 +631,12 @@ video {
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
-.bg-green-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-\[10px\] {
   padding: 10px;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .text-center {
@@ -661,6 +647,10 @@ video {
   text-align: right;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .text-\[30px\] {
   font-size: 30px;
 }
@@ -669,12 +659,52 @@ video {
   font-size: 40px;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
-}
-
 .text-\[25px\] {
   font-size: 25px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-\[\.25em\] {
+  letter-spacing: .25em;
+}
+
+.tracking-\[\.20em\] {
+  letter-spacing: .20em;
+}
+
+.tracking-\[30px\] {
+  letter-spacing: 30px;
+}
+
+.tracking-\[10px\] {
+  letter-spacing: 10px;
+}
+
+.tracking-\[5px\] {
+  letter-spacing: 5px;
+}
+
+.tracking-\[9px\] {
+  letter-spacing: 9px;
+}
+
+.tracking-\[8px\] {
+  letter-spacing: 8px;
+}
+
+.tracking-\[7px\] {
+  letter-spacing: 7px;
 }
 
 .text-\[white\] {
@@ -687,7 +717,21 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.first-letter\:text-\[60px\]::first-letter {
+  font-size: 60px;
+}
+
+.first-letter\:text-red-800::first-letter {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
